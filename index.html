@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="Um bot que irá moderar e deixar a sua comunidade segura de um jeito fácil!">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Balle Bot </title>
+</head>
+<body>
+    <header class="cabecalho"> <!-- Adiciona ao elemento 'header' uma class chamada "cabecalho"-->
+        <img class="cabecalho-imagem" src="logo.svg" alt="Logo da comunidade Balerrini"> <!-- Coloca uma imagem no cabeçalho que tem uma mensagem alt para caso a imagem não apareça-->
+        <nav class="cabecalho-menu"> <!-- Cria um menu de navegação-->
+            <a class="cabecalho-menu-item" href="https://discord.gg/wagxzStdcR"> Comunidade Ballerini </a> <!-- O primeiro elemento do nosso menu que direciona para um link externo-->
+            <a class="cabecalho-menu-item"> Tutorial </a> <!-- Segundo elemento do nosso menu, ele não direciona para nenhum link.-->
+            <a class="cabecalho-menu-item"> Open Source </a> <!-- Terceiro elemento do nosso menu que também não direciona para nenhum link.-->
+            <a class="cabecalho-menu-item"> Comandos </a> <!-- Quarto elemento do nosso menu que também não direciona para nenhum link.-->
+        </nav>
+    </header> 
+    <main class="conteudo"> <!-- O elemento "main" significa todo o conteúdo da página (mas basicamente, o conteudo principal) da página-->
+        <section class="conteudo-principal"> <!-- Cria uma seção onde vai estar especificadamente o conteúdo principal da página-->
+            <div class="conteudo-principal-escrito"> <!-- Cria uma div onde estará o conteúdo principal escrito-->
+                <h1 class="conteudo-principal-escrito-titulo"> Balle Bot</h1> <!-- Criamos o título da página -->
+                <h2 class="conteudo-principal-escrito-subtitulo"> Deixe a sua comunidade segura de um jeito fácil </h2> <!-- Com esse elemento criamos o subtítulo da nossa página -->
+                <button class="conteudo-principal-escrito-botao"> Me adicione! </button> <!-- Aqui criamos o botão chamado "Me adicione", mas ele não tem funcionalidade, porque não está linkando para lugar nenhum-->
+            </div>
+            <img class="conteudo-principal-imagem" src="ballebot.svg" alt="Imagem da Balle Bot"> <!-- Como pudemos perceber, o elemento "img" não está mais dentro da div, por que ela não é um conteúdo escrito, mas continua dentro do elemento "section", portanto ainda faz parte do conteúdo principal da página-->
+        </section>
+        <section class="conteudo-secundario"> <!-- O conteúdo principal já foi feito, agora criamos outra section para o conteúdo secundário -->
+            <h3 class="conteudo-secundario-titulo"> O que ela faz por você? </h3> <!-- Criamos o título da parte secundária-->
+            <p class="conteudo-secundario-paragrafo"> 1. Cria um <strong>sistema de verificação capcha</strong> para novos membros garantirem que não são robôs</p> <!-- Com o elemento "p" criamos o texto do conteúdo secundário. O elemento "strong" deixa o texto em negrito. A class utilizada nesse paragráfo, é a mesma utilizada nos outros dois itens abaixo-->
+            <p class="conteudo-secundario-paragrafo"> 2. Possui um <strong>sistema de banimento automático</strong> para links suspeitos que forem enviados na comunidade </p> <!-- Apenas mudamos o texto, mas as informações são as mesmas que o primeiro elemento -->
+            <p class="conteudo-secundario-paragrafo"> 3. <strong>Sistema de avisos e banimento manual</strong>, para pessoas administradoras utilizarem </p>
+        </section>
+    </main>
+    <footer class="rodape"> <!-- O elemento "footer" significa o rodapé da página-->
+        <img class="rodape-imagem" src="ballerini.svg"> <!-- Adicionamos uma imagem no rodapé-->
+    </footer>
+</body>
+</html>
