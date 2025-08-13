@@ -1,4 +1,4 @@
-# 🌐 Landing Page: Projeto Rafaella Ballerini
+˙✧˖°📷 ༘ ⋆｡° Landing Page: Projeto Rafaella Ballerini
 
 <img width="1280" height="720" alt="image" src="https://github.com/user-attachments/assets/dd2b6d9b-af7e-40d8-8098-2d133a3cbd30" />
 
